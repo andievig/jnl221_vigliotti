@@ -3,7 +3,7 @@
 .header {
 	height: auto;
 	font-weight: bold;
-	font-size: 50px;
+	font-size: 37px;
 	background-color: black;
 	color: white;
 	text-align: center;
@@ -21,6 +21,8 @@
 img {
 	margin-right: 5%;
 	margin-left: 5%;
+	height: 445px;
+	width: 620px;
 }
 figcaption {
 	color: darkgray;
@@ -31,7 +33,7 @@ p {
 	font-size: 18px;
 }
 h4 {
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Georgia', sans-serif;
 	font-weight: bold;
 	margin-top: 10px;
@@ -42,9 +44,10 @@ h2	{
 }
 
 div#list {
-	float: right;
+	float: left;
 	margin-right: 5%;
 	margin-left: 5%;
+	margin-bottom: 5%;
 	border: 1px solid black;
 	padding: 16px;
 	font-family: 'Poppins', sans-serif;
@@ -52,6 +55,7 @@ div#list {
 }
 ul {
   list-style-type: circle;
+  font-size: 15px;
 }
 h3 {
 	font-family: 'Source Sans Pro', sans-serif;
@@ -75,7 +79,8 @@ h3 {
 	#image {
 		display: block; 
 		float: none;
-		margin-left: 10%;
+		margin-left: 0%;
+		width: 767px;
     }
     div#list {
     	display: block;
@@ -83,5 +88,8 @@ h3 {
     	margin-left: 10%;
     	margin-right: 10%;
     	padding: 6px;
+    }
+    div#footer {
+    	font-size: 15px;
     }
 }
